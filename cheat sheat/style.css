@@ -1,0 +1,221 @@
+h1{color:red
+body
+    background-color:#f4f4f4;
+    color:555555
+
+box-1.
+    background-color:#333
+    color: #fff;
+border-right: 5px red solid;
+border-left: 5px red solid;
+border-top: 5px red solid;
+border-bottom: 5px red solid;
+border-width: 3px;
+border-bottom-width:10px;
+
+.container              
+width: 960px;
+
+width: 80%;
+p
+margin-top: 5px;
+margin-bottom: 5px;
+margin-right: 10px;
+margin-left:10px;
+}
+
+.categories  {
+border: 1px #ccc solid
+padding: 10px;
+border-radius: 15px; 
+}
+.categories h2  {
+text-align: center;
+}
+categories ul  {
+padding: 0;
+list-style: none;
+}
+a {
+text-decoration: none;
+}
+color: #000;
+a: hover {
+    color: red;
+   }
+  a:active {
+   color: green;
+  }
+a:visited {
+color: yellow;
+}
+
+categories li  {
+    padding-bottom: 6px;
+    border-bottom: dotted 1px #333;
+    }
+    list-style-image: url('../images/check.png');
+    <form class="my-form">
+
+    <div class="form-group">
+    
+    <label> Name: </label>
+    
+    <input type="text" name="firstName" placeholder="Enter first name">
+    
+    </div>
+    
+    <div class="form-group">
+    
+    <label> Email: </label>
+    
+    <input type="text" name="lastName">
+    
+    </div>
+    
+    <div class="form-group">
+    
+    <label>Message</label>
+    
+    <textarea name="message"></textarea>
+    
+    </div>
+    
+    <input type="submit" name="submit" value="Submit">
+    
+    </form>
+    
+    <div style="margin-top:500px;"></div>  
+    my-form {
+        padding: 20px;
+        }
+my-form   .form-group {
+             padding-botom: 15px;
+  }   .my-form  label {
+   display: block;   }
+
+ my-form   
+ input [type="text"] 
+  {
+           padding: 8px;
+       width: 100%;
+}
+ .button {
+  background-color: #333;
+  color: #fff;
+  padding: 10 px 15px;
+   border: none;    }
+        
+   .button:hover {
+    background: red;
+    color: #fff;
+}
+    .block {
+    float: left;
+     width: 33.3%;
+     border: 1px solid #333;
+padding: 10px;
+}
+
+#main-block {
+    float: left;
+    width: 70%;
+    padding: 15px
+    box-sizing: border-box;
+}
+    #sidebar {
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px
+    box-sizing: border-box;
+}
+
+p-box {
+    width: 800px;
+    height: 500px;
+    border: 1px  solid  #000;
+    }
+
+    margin-top: 30px;
+
+    .p-box  h1 {
+        position: absolute;
+        top: 40px;
+        }
+        position: relative;
+        top: 100px;
+        .p-box  h2 {
+            position: absolute;
+            bottom: 40px;
+            right: 100px;
+  }
+   .fix-me {
+   position: fixed;
+   top: 400px;
+}
+.p-box {
+    width: 800px;
+    height: 500px;
+    border: 1px  solid  #000;
+    }
+    margin-top: 30px;
+    .p-box  h1 {
+        position: absolute;
+        top: 40px;
+}
+.p-box  h1 {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+    .p-box  h2 {
+ position: absolute;
+ bottom: 40px;
+ right: 100px;
+  }
+  .fix-me {
+    position: fixed;
+    top: 400px;
+    }
+    .p-box  h2 {
+ position: absolute;
+ bottom: 40px;
+ right: 100px;
+ background-image:url('/bgimage.jpg');
+ background-repeat: no-repeat;
+ background-position: 100px  200px;
+ background-repeat: center  center;
+ }
+
+ .my-list  li:first-child {
+    background: red;
+    }
+    .my-list  li:last-child {
+        background: blue;
+        }
+
+ .my-list  li:nth-child(4) {
+  background: yellow;
+  }
+  .my-list  li:nth-child(even) {
+    background: gray;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
